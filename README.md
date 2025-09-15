@@ -27,13 +27,24 @@ Visualizes the popularity and revenue contribution of each payment method.
 Provides a direct comparison between revenue and profit for each category, highlighting the most profitable areas of the business.
 
 # Tech Stack 🛠️
-![Google Looker Studio](https://img.shields.io/badge/Google%20Looker%20Studio-4285F4?style=flat-square&logo=looker&logoColor=white)
 ![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=flat-square&logo=google-sheets&logoColor=white)
+![diagrams.net](https://img.shields.io/badge/diagrams.net-F08705?style=flat-square&logo=diagramsdotnet&logoColor=white)
+![Google Looker Studio](https://img.shields.io/badge/Google%20Looker%20Studio-4285F4?style=flat-square&logo=looker&logoColor=white)
 
 # Requirements ✅
 This guide will walk you through the steps to build this dashboard from scratch using the provided dummy data.
 
-### Step 1: Prepare the Data Source assets
+### Step 1: Design the Dashboard Mockup
+Before creating the actual data visualization report, create a mockup/wireframe to define the layout, charts, and key metrics you want to display.
+
+<pre>
+- Use a diagramming/wireframing tool such as <a href="https://app.diagrams.net/" target="_blank">diagrams.net</a> or alternatives like Figma/Excalidraw.
+- Include the intended KPIs (e.g., total revenue, orders), chart types (e.g., time series, bar, pie), filters (e.g., date range, category), and overall layout.
+- Export or save the mockup (PNG/PDF) so you can reference it while building the report.
+- Optional: Use the existing <a href="assets/Mockup Preview.png">Mockup Preview.png</a> in this repository as inspiration or a starting point.
+</pre>
+
+### Step 2: Prepare the Data Source assets
 First, you need to get the data into a format that Looker Studio can easily connect to. We'll use Google Sheets for this.
 
 <pre>
@@ -48,7 +59,7 @@ First, you need to get the data into a format that Looker Studio can easily conn
 - Rename the spreadsheet to something descriptive, like "E-commerce Sales Dashboard Data".
 </pre>
 
-### Step 2: Connect Looker Studio to Your Data
+### Step 3: Connect Looker Studio to Your Data
 Now, let's connect our new Google Sheet to a Looker Studio report.
 
 <pre>
@@ -61,7 +72,7 @@ Now, let's connect our new Google Sheet to a Looker Studio report.
 - Ensure the correct worksheet is selected and click the Add button in the bottom right corner.
 </pre>
 
-### Step 3: Build the Visualizations 
+### Step 4: Build the Visualizations 
 You are now ready to build the dashboard! You have a blank canvas and all the data fields available in the panel on the right.
 
 <pre>
