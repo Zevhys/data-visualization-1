@@ -39,8 +39,11 @@ Before creating the actual data visualization report, create a mockup/wireframe 
 
 <pre>
 - Use a diagramming/wireframing tool such as <a href="https://app.diagrams.net/" target="_blank">diagrams.net</a> or alternatives like Figma/Excalidraw.
+
 - Include the intended KPIs (e.g., total revenue, orders), chart types (e.g., time series, bar, pie), filters (e.g., date range, category), and overall layout.
+
 - Export or save the mockup (PNG/PDF) so you can reference it while building the report.
+
 - Optional: Use the existing <a href="assets/Mockup Preview.png">Mockup Preview.png</a> in this repository as inspiration or a starting point.
 </pre>
 
